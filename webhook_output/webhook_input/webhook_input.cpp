@@ -104,7 +104,7 @@ int main( )
         }
 
         // Start a new thread to handle the client
-        std::thread clientThread( handleClient, clientSocket, "https://discord.com/api/webhooks/1119786404302569534/TZ3Z74XKmfOWfWiFk9OzNrB3OWMUJ4TlZKNgsEzekR69JUZxSexQZJ-4wxdZuYcBvFZk" );
+        std::thread clientThread( handleClient, clientSocket, "YOUR_WEBHOOK" );
         clientThreads.push_back( std::move( clientThread ) );
     }
 
