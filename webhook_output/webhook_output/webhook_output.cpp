@@ -7,7 +7,7 @@
 
 const int BUFFER_SIZE = 4096;
 const int SERVER_PORT = 8080;
-const std::string WEBHOOK_URL = "https://discord.com/api/webhooks/1119786404302569534/TZ3Z74XKmfOWfWiFk9OzNrB3OWMUJ4TlZKNgsEzekR69JUZxSexQZJ-4wxdZuYcBvFZk";
+const std::string WEBHOOK_URL = "YOUR_WEBHOOK";
 
 void sendToDiscordWebhook( const std::string& message, const std::string& username )
 {
